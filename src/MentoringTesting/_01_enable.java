@@ -10,7 +10,7 @@ org.testng:testng:6.14.3*/
     public void c_language(){
         System.out.println("C language");
     }
-    @Test
+    @Test(enabled = false)
     public void jira(){
         System.out.println("jira ile languaga");
     }  @Test
